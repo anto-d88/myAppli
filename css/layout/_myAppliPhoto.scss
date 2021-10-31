@@ -1,10 +1,10 @@
 .photo{
     position: relative;
     border: 2px solid #fff;
-    width: 50vh;
-    height: 50vh;
+    width: 50vw;
+    height: 50vw;
     background-image: url(../img/photo-01.jpg);
-    background-size:auto 50vh ;
+    background-size:auto 50vw ;
     transform: rotate(-20deg);
 
 }
@@ -15,7 +15,7 @@
     
 }
 h1{
-    font-size: 500%;
+    font-size: 16vh;
     text-decoration-line: underline;
     display: flex;
     justify-content: center;
@@ -24,4 +24,35 @@ h1{
     text-align: center;
     align-items: center;
     color: #fff;
+}
+@media (max-width:490px){
+    .photo{
+        position: relative;
+        border: 2px solid #fff;
+        width: 40vw;
+        height: 40vw;
+        background-image: url(../img/photo-01.jpg);
+        background-size:auto 40vw ;
+        transform: rotate(-20deg);
+    
+    }
+
+    .entête{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 10vw;
+        text-decoration-line: underline;
+        
+        
+        // border: 2px solid #f44336;
+        // background-color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        
+        color: #fff;
+    }
+
 }
