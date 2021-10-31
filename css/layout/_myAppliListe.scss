@@ -1,18 +1,25 @@
 *{
     box-sizing: border-box;
-
-}
-ul{
     margin: 0;
     padding: 0;
+    font-family: 'Julee', cursive;
 }
+ul{
+    background-color: rgba(145, 208, 255, 0.5);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    margin-left: 8vh;
+}
+
 ul li {
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: #eee;
     font-size: 18px;
     transition: 0.2s;
+    
 
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -21,21 +28,25 @@ ul li {
 }
 
 ul li:nth-child(odd){
-    background: #f9f9f9;
+    
+    // // background: #f9f9f9;
 }
 
 ul li:hover{
-    background: #ddd;
+    
+    background: rgba(255, 255, 255, 0.5);
 }
 
 ul li.checked{
-    background: #888;
+    
+    background: rgba(68, 222, 78, 0.5);
     color: #fff;
     text-decoration: line-through;
 }
 
 ul li:checked::before{
     content:'';
+    
     position: absolute;
     border-color: #fff;
     border-style: solid;
@@ -59,11 +70,15 @@ ul li:checked::before{
     color: white;
 }
 
-.Titre{
-    background-color: #f44336;
-    padding: 30px 40px;
+.Titre{   
+    position: relative;
+    border: 2px solid #2ECCFA;
+    // background-color: #f44336;
+    // padding: 30px 40px;
     color: white;
     text-align: center;
+    margin-bottom: 5vh;
+    
 }
 
 .Titre:after{

@@ -1,6 +1,18 @@
-.container {
-    margin: $layout-margin;
-    padding: $grid-gutter $grid-gutter 0 $grid-gutter;
-    @include border($colour-accent);
+// .container {
+//     margin: $layout-margin;
+//     padding: $grid-gutter $grid-gutter 0 $grid-gutter;
+//     // @include border($colour-accent);
+// }
+main{
+    padding: 10vh ;
+    height: 1000vh;
+    background-image: url(../img/Lambris-01.jpg);
+    background-size: auto;
 }
-
+.box{
+    padding: 10vh;
+    padding-bottom: 10vh;
+    background-color: rgba(128, 128, 128, 0.8);
+    min-height: 100vh;
+    height: auto;
+}

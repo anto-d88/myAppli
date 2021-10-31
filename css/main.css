@@ -1,17 +1,39 @@
+@charset "UTF-8";
+main {
+  padding: 10vh;
+  height: 1000vh;
+  background-image: url(../img/Lambris-01.jpg);
+  background-size: auto;
+}
+
+.box {
+  padding: 10vh;
+  padding-bottom: 10vh;
+  background-color: rgba(128, 128, 128, 0.8);
+  min-height: 100vh;
+  height: auto;
+}
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Julee", cursive;
 }
 
 ul {
+  background-color: rgba(145, 208, 255, 0.5);
+  list-style: none;
   margin: 0;
   padding: 0;
+  width: 90%;
+  margin-left: 8vh;
 }
 
 ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
-  background: #eee;
   font-size: 18px;
   transition: 0.2s;
   -webkit-user-select: none;
@@ -20,16 +42,12 @@ ul li {
   user-select: none;
 }
 
-ul li:nth-child(odd) {
-  background: #f9f9f9;
-}
-
 ul li:hover {
-  background: #ddd;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 ul li.checked {
-  background: #888;
+  background: rgba(68, 222, 78, 0.5);
   color: #fff;
   text-decoration: line-through;
 }
@@ -60,10 +78,11 @@ ul li:checked::before {
 }
 
 .Titre {
-  background-color: #f44336;
-  padding: 30px 40px;
+  position: relative;
+  border: 2px solid #2ECCFA;
   color: white;
   text-align: center;
+  margin-bottom: 5vh;
 }
 
 .Titre:after {
@@ -97,6 +116,31 @@ input {
 
 .addBtn:hover {
   background-color: #bbb;
+}
+
+.photo {
+  position: relative;
+  border: 2px solid #fff;
+  width: 50vh;
+  height: 50vh;
+  background-image: url(../img/photo-01.jpg);
+  background-size: auto 50vh;
+  transform: rotate(-20deg);
+}
+
+.entête {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+h1 {
+  font-size: 500%;
+  text-decoration-line: underline;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
