@@ -151,10 +151,10 @@ input {
 .photo {
   position: relative;
   border: 2px solid #fff;
-  width: 50vw;
-  height: 50vw;
+  width: 50vh;
+  height: 50vh;
   background-image: url(../img/photo-01.jpg);
-  background-size: auto 50vw;
+  background-size: auto 50vh;
   transform: rotate(-20deg);
 }
 
