@@ -105,7 +105,8 @@ ul li:checked::before {
 .Titre {
   position: relative;
   border: 2px solid #2ECCFA;
-  color: white;
+  background: white;
+  min-height: 30px;
   text-align: center;
   margin-bottom: 5vh;
 }
@@ -129,6 +130,7 @@ input {
 .addBtn {
   padding: 10px;
   width: 25%;
+  min-height: 30px;
   background: #d9d9d9;
   color: #555;
   float: left;
@@ -149,12 +151,10 @@ input {
   }
 
   .addBtn {
-    padding: 12.5px;
     font-size: 12px;
   }
 
   input {
-    padding: 12.5px;
     font-size: 12px;
   }
 }
