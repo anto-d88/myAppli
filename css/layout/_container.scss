@@ -5,7 +5,7 @@
 // }
 main{
     padding: 10vh ;
-    height: 1000vh;
+    height: 100%;
     background-image: url(../img/Lambris-01.jpg);
     background-size: auto;
 }
@@ -13,21 +13,26 @@ main{
     padding: 10vh;
     padding-bottom: 10vh;
     background-color: rgba(128, 128, 128, 0.8);
-    min-height: 100vh;
+    min-height: 100%;
     height: auto;
 }
 @media (max-width:490px){
 main{
+    position: absolute;
     padding: 5vh ;
-    height: 1000vh;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
     background-image: url(../img/Lambris-01.jpg);
     background-size: auto;
 }
 .box{
+    position: relative;
     padding: 5vh;
     padding-bottom: 5vh;
     background-color: rgba(128, 128, 128, 0.8);
-    min-height: 100vh;
+    min-height: 100%;
     height: auto;
 }
 }
